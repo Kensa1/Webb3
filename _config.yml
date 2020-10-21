@@ -1,0 +1,26 @@
+title: Secure javascript
+description: You’re building your own maze, in a way, and you might just get lost in it.
+
+url:
+baseurl: "/Webb3"
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+
+
+google_analytics: "UA-58263416-1"
+
+disqus:
+    shortname: my-disqus-shortname
